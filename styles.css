@@ -21,10 +21,9 @@ header h1 {
     margin: 0;
 }
 
-
 nav ul {
     list-style-type: none;
-    padding: 5px 0;
+    padding: 5px 5px 5px 0;
     margin: 0;
 }
 
@@ -51,24 +50,6 @@ nav a:active {
     text-decoration: none;
 }
 
-.button a:link {
-    text-decoration: none;
-    color: #ffffff;
-}
-  
-.button a:visited {
-    text-decoration: none;
-    color: #ffffff;
-}
-  
-.button a:hover {
-    text-decoration: none;
-}
-  
-.button a:active {
-    text-decoration: none;
-}
-
 .button {
     display: block;
     width: 100%;
@@ -91,6 +72,9 @@ nav a:active {
     margin: 100px 15px 15px 15px;
 }
 
+.mobile-hide {
+    display: none;
+}
 
 /* large */
 @media screen and (min-width: 768px) {
@@ -122,12 +106,7 @@ nav a:active {
         align-items: center;
     }
 
-
-}
-
- /* small */
-@media screen and (max-width: 768px) {
-    img {
-        display: none;
+    .mobile-hide {
+        display: block;
     }
 }
